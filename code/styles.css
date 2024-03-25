@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    align-items: center;
+}
+
+.alberser {
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.soon h1 {
+    font-size: 45px;
+}
+
+.main-footer {
+    position: absolute;
+    top: 185%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-footer-socials {
+    gap: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer-socials i {
+    font-size: 3.5rem;
+}
+
+.main-footer-options > *:hover {
+    text-decoration: underline;
+}
+
+.main-footer-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
